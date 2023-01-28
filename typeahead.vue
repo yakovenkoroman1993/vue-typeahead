@@ -1,5 +1,5 @@
 <template>
-  <div class="auto-complete">
+  <div class="typeahead">
     <div class="input-box">
       <input
         ref="input"
@@ -67,7 +67,7 @@
 <script>
 
 export default {
-  name: "AutoComplete",
+  name: "Typeahead",
   props: {
     required: {
       type: Boolean,
@@ -316,7 +316,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.auto-complete {
+.typeahead {
   display: flex;
   flex-direction: column;
   position: relative;
